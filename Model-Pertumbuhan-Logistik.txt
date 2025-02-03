@@ -1,0 +1,67 @@
+﻿Model Pertumbuhan Logistik
+Langkah 1: Identifikasi Masalah Dunia Nyata
+Memodelkan pertumbuhan populasi suatu komunitas dengan keterbatasan sumber daya.
+Contoh:
+Sebuah RT memiliki 20 orang untuk penduduk awal. Populasi bertambah karena kelahiran, tetapi juga terbatas oleh kapasitas lingkungan yang maksimal dapat menampung 100 orang.
+
+Masalah:
+Bagaimana populasi akan berkembang seiring berjalannya waktu hingga mencapai batas lingkungan?
+
+Langkah 2: Formulasi Masalah ke dalam Matematika
+Populasi awal P0 = 20 
+Kapasitas ingkungan K = 100
+Laju pertumbuhan intrinsic r = 0,2
+Bagaimana perubahan populasi seiring berjalannya waktu ?
+
+Langkah 3: Membuat Asumsi
+    1. Tidak ada migrasi masuk atau keluar RT.
+    2. Laju kelahiran dan kematian mengikuti pola alami.
+    3. Kapasitas lingkungan 𝐾 tetap dan tidak berubah.
+    4. Populasi tumbuh sesuai dengan model logistik.
+
+Langkah 4: Formulasi Model Matematis
+
+Dimana:
+ = Jumlah populasi pada waktu 
+ = Laju pertumbuhan intrinsic
+ = Kapasitas batas lingkungan
+ = Faktor penghambat pertumbuhan
+ = Laju perubahan populasi terhadap waktu
+
+Langkah 5: Penyelesaian Model
+
+
+Untuk mencari integral di sisi kiri, pecahannya disederhanakan:
+
+dan pecahan kemudian diubah menjadi pecahan parsial:
+
+sehingga diperoleh
+
+
+
+
+
+
+
+Jika A = 
+
+
+
+
+
+Maka solusi dari persamaan ini adalah:
+
+Untuk mencari A, asumsikan t = 0 dan P(0) = . Maka diperoleh
+
+Mengingat bahwa , maka diperoleh:
+
+
+Jadi, solusi persamaannya adalah:
+
+Populasi awal (P0): 20 
+Kapasitas lingkungan (K): 100
+Laju pertumbuhan intrinsic (r): 0,2
+Waktu: 0 hingga 50 hari
+Substitusi parameter ke solusi:
+
+
